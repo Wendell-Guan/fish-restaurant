@@ -15,7 +15,7 @@ const Gallery = () => {
             <img src="/assets/images/gallery_raw_grouper.png" alt="Raw Grouper on ice" />
           </div>
           <div className="gallery-item item-crab">
-            <img src="https://images.unsplash.com/photo-1580481072645-022f9a6d4ce8?q=80&w=800" alt="Fresh market fish" />
+            <img src="/assets/images/suriname_red_snapper.png" alt="Fresh Suriname Red Snapper" />
           </div>
           <div className="gallery-item item-school">
             <img src="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?q=80&w=800" alt="Fresh market fish display" />
@@ -24,13 +24,13 @@ const Gallery = () => {
             <img src="/assets/images/suriname_croaker.png" alt="Whitemouth Croaker" />
           </div>
           <div className="gallery-item item-shrimp">
-            <img src="https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?q=80&w=800" alt="Raw fish catch" />
+            <img src="/assets/images/hero_fish_plate.png" alt="Fresh Raw Fish Selection" />
           </div>
           <div className="gallery-item item-clams">
             <img src="https://images.unsplash.com/photo-1534482421-64566f976cfa?q=80&w=800" alt="Raw open market fish" />
           </div>
           <div className="gallery-item item-fish">
-            <img src="https://images.unsplash.com/photo-1590038848493-27150fb57a55?q=80&w=800" alt="Whole raw fish on ice" />
+            <img src="https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?q=80&w=800" alt="Raw Salmon on ice" />
           </div>
         </div>
         
