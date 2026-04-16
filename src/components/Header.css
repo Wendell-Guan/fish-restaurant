@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.header-logo {
+  font-size: 2rem;
+  color: var(--clr-bg-deep);
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-nav a {
+  color: var(--clr-bg-deep);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.header-nav a:hover {
+  color: var(--clr-text-white);
+}

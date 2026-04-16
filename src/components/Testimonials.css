@@ -1,0 +1,84 @@
+#avis {
+  background-color: var(--clr-bg-light);
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  position: relative;
+  z-index: 2;
+  margin-top: -50px;
+}
+
+.testimonials-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.testimonial-card {
+  flex: 1;
+  background-color: var(--clr-bg-deep);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  background: var(--clr-bg-light);
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.user-info h4 {
+  font-size: 0.9rem; margin-bottom: 0.2rem;
+}
+
+.user-info p {
+  font-size: 0.7rem; opacity: 0.7;
+}
+
+.google-icon {
+  margin-left: auto;
+  font-weight: bold;
+  color: #ea4335;
+  background: white;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  display: flex; justify-content: center; align-items: center;
+  font-size: 0.7rem;
+}
+
+.stars {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-text {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.testimonials-action {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#avis::after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: var(--clr-bg-deep);
+  border-top-left-radius: 50% 100px;
+  border-top-right-radius: 50% 50px;
+  z-index: -1;
+}

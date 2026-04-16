@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+:root {
+  --clr-bg-deep: #021419;
+  --clr-bg-wave: #04242e;
+  --clr-bg-light: #064049;
+  --clr-wave-cyan: #2cccd3;
+  --clr-accent-sand: #fbf5e1;
+  --clr-text-light: #e0f2f5;
+  --clr-text-white: #ffffff;
+  --clr-text-dark: #001217;
+  
+  --font-main: 'Outfit', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--clr-bg-deep);
+  color: var(--clr-text-light);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Utility */
+h1, h2, h3, h4 {
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--clr-bg-deep);
+  color: var(--clr-accent-sand);
+}
+
+.btn-secondary {
+  background-color: var(--clr-accent-sand);
+  color: var(--clr-bg-deep);
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Layout Utilities */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section {
+  padding: 5rem 0;
+  position: relative;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: var(--clr-text-white);
+  position: relative;
+}
+
+.section-title::after {
+  content: '〰';
+  display: block;
+  font-size: 1.2rem;
+  color: var(--clr-accent-sand);
+  margin-top: 0.5rem;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 0.8rem;
+  max-width: 600px;
+  margin: -2rem auto 3rem auto;
+  opacity: 0.8;
+}
+
+/* Wave Shapes */
+.wave-divider {
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  z-index: 0;
+  left: 0;
+  pointer-events: none;
+}

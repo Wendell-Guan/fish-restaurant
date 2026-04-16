@@ -1,0 +1,109 @@
+#contact {
+  background-color: var(--clr-bg-deep);
+  padding-top: 6rem;
+}
+
+.contact-container {
+  display: flex;
+  gap: 4rem;
+}
+
+.contact-form-side {
+  flex: 2;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+.form-full-row {
+  width: 100%;
+}
+
+input, textarea {
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  color: var(--clr-text-white);
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+textarea {
+  border-radius: 20px;
+  resize: vertical;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--clr-accent-sand);
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.form-checkbox input {
+  width: auto;
+}
+
+.contact-form button {
+  align-self: flex-start;
+}
+
+.contact-info-side {
+  flex: 1;
+}
+
+.contact-info-side h3 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.info-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-start;
+}
+
+.info-item .icon {
+  font-size: 1.2rem;
+  color: var(--clr-accent-sand);
+}
+
+.info-item p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.contact-image-wrap {
+  margin-top: 2rem;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 200px;
+}
+
+.contact-texture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
