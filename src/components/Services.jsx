@@ -14,11 +14,11 @@ const Services = () => {
           <div className="carousel-btn prev">&#10094;</div>
           
           <div className="services-grid">
-            <div className="service-card image-card" style={{ backgroundImage: 'url(/assets/images/service_rod.png)' }}>
+            <div className="service-card image-card" style={{ backgroundImage: 'url(/assets/images/suriname_red_snapper.png)' }}>
               <div className="card-content">
                 <div className="icon-wrapper">🎣</div>
-                <h3>Prestation 01</h3>
-                <p>Lorem ipsum dolor sit amet aliqua.</p>
+                <h3>Red Snapper</h3>
+                <p>Premium Suriname Lutjanus purpureus.</p>
               </div>
             </div>
 
@@ -33,11 +33,11 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="service-card image-card" style={{ backgroundImage: 'url(/assets/images/footer_school.png)' }}>
+            <div className="service-card image-card" style={{ backgroundImage: 'url(/assets/images/suriname_catfish.png)' }}>
               <div className="card-content">
                 <div className="icon-wrapper">🐟</div>
-                <h3>Prestation 03</h3>
-                <p>Lorem ipsum dolor sit amet aliqua.</p>
+                <h3>Koepila Catfish</h3>
+                <p>Traditional smoked sea catfish specialties.</p>
               </div>
             </div>
           </div>
