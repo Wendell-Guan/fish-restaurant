@@ -1,13 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Gallery.css';
 
 const Gallery = () => {
+  const { t } = useTranslation();
   return (
     <section className="section" id="galerie">
       <div className="container">
-        <h2 className="section-title">FRESH CATCH SHOWCASE</h2>
+        <h2 className="section-title">{t('gallery.title')}</h2>
         <p className="section-subtitle">
-          A glimpse into our pristine daily harvest, ready for export.
+          {t('gallery.subtitle')}
         </p>
 
         <div className="gallery-grid">
@@ -35,7 +37,7 @@ const Gallery = () => {
         </div>
         
         <div className="gallery-action">
-          <button className="btn btn-secondary">View Full Catalog</button>
+          <button className="btn btn-secondary">{t('gallery.btnFull')}</button>
         </div>
       </div>
     </section>

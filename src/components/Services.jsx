@@ -1,13 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Services.css';
 
 const Services = () => {
+  const { t } = useTranslation();
   return (
     <section className="section" id="prestations">
       <div className="container">
-        <h2 className="section-title">OUR PRODUCTS & DISTRIBUTION</h2>
+        <h2 className="section-title">{t('services.title')}</h2>
         <p className="section-subtitle">
-          We source, process, and distribute high-grade Suriname seafood worldwide.
+          {t('services.subtitle')}
         </p>
 
         <div className="carousel-container">
@@ -17,27 +19,27 @@ const Services = () => {
             <div className="service-card image-card" style={{ backgroundImage: 'url(/assets/images/suriname_red_snapper.png)' }}>
               <div className="card-content">
                 <div className="icon-wrapper">🎣</div>
-                <h3>Wild Red Snapper</h3>
-                <p>Premium Suriname Lutjanus purpureus, caught daily.</p>
+                <h3>{t('services.snapperTitle')}</h3>
+                <p>{t('services.snapperDesc')}</p>
               </div>
             </div>
 
             <div className="service-card dark-card">
               <div className="card-content top-content">
                 <div className="icon-wrapper-large">🚢</div>
-                <h3>Global Cold-Chain</h3>
+                <h3>{t('services.coldchainTitle')}</h3>
                 <p>
-                  State-of-the-art cold logistics guarantee ocean-to-market freshness anywhere in the world.
+                  {t('services.coldchainDesc')}
                 </p>
-                <button className="btn btn-secondary">Learn More</button>
+                <button className="btn btn-secondary">{t('services.btnLearn')}</button>
               </div>
             </div>
 
             <div className="service-card image-card" style={{ backgroundImage: 'url(/assets/images/suriname_catfish.png)' }}>
               <div className="card-content">
                 <div className="icon-wrapper">🐟</div>
-                <h3>Koepila Catfish</h3>
-                <p>Top grade sea catfish processed to international standards.</p>
+                <h3>{t('services.catfishTitle')}</h3>
+                <p>{t('services.catfishDesc')}</p>
               </div>
             </div>
           </div>

@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from './Header';
+import { useTranslation } from 'react-i18next';
 import './Hero.css';
 
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <div className="hero-section" id="home">
       <div className="hero-bg-top"></div>
@@ -10,11 +12,11 @@ const Hero = () => {
       
       <div className="hero-content container">
         <div className="hero-text">
-          <p className="hero-subtitle">PREMIUM SEAFOOD DISTRIBUTOR</p>
-          <h1 className="hero-title">FRESH CATCH<br/>FROM SOUTH AMERICA<br/>TO THE WORLD</h1>
+          <p className="hero-subtitle">{t('hero.subtitle')}</p>
+          <h1 className="hero-title" style={{ whiteSpace: 'pre-line' }}>{t('hero.title')}</h1>
           <div className="hero-buttons">
-            <button className="btn btn-primary">Our Products</button>
-            <button className="btn btn-secondary">Contact Sales</button>
+            <button className="btn btn-primary">{t('hero.btnProducts')}</button>
+            <button className="btn btn-secondary">{t('hero.btnContact')}</button>
           </div>
         </div>
         
@@ -28,15 +30,11 @@ const Hero = () => {
           <img src="/assets/images/hero_fish_plate.png" alt="Raw fish on ice" className="plate-img" />
         </div>
         <div className="hero-description">
-          <h3>South American Export</h3>
-          <h2>WILD-CAUGHT FISH,<br/>GUARANTEED FRESHNESS<br/>& COLD CHAIN.</h2>
-          <p>
-            SuriCatch is a leading fish distributor based in Suriname, specializing in exporting the finest wild-caught marine species. From the pristine waters of the Atlantic, right to your commercial market.
-          </p>
-          <p>
-            Our dedicated fleet and strict cold-chain logistics ensure that high-demand varieties like Red Snapper, Grouper, and Whitemouth Croaker retain their absolute oceanic freshness upon global delivery.
-          </p>
-          <button className="btn btn-secondary">View Catalog</button>
+          <h3>{t('hero.descTitle')}</h3>
+          <h2 style={{ whiteSpace: 'pre-line' }}>{t('hero.descSubtitle')}</h2>
+          <p>{t('hero.descP1')}</p>
+          <p>{t('hero.descP2')}</p>
+          <button className="btn btn-secondary">{t('hero.btnCatalog')}</button>
         </div>
       </div>
     </div>
