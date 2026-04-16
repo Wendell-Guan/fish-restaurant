@@ -8,22 +8,38 @@
   z-index: 10;
 }
 
-.header-logo {
-  font-size: 2rem;
-  color: var(--clr-bg-deep);
+.header-nav {
+  flex: 1;
 }
 
-.header-nav ul {
+.left-nav ul {
   display: flex;
   gap: 2rem;
+  justify-content: flex-start;
+}
+
+.right-nav ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.header-logo {
+  flex: 0 0 auto;
+  margin: 0 2rem;
+}
+
+.logo-icon svg {
+  display: block;
+  transform: translateY(-10px);
 }
 
 .header-nav a {
   color: var(--clr-bg-deep);
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 
 .header-nav a:hover {

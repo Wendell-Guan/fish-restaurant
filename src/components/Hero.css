@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 90vh; /* Adjust based on wave */
+  height: 90vh;
   background: linear-gradient(180deg, #d2f6f8 0%, #2cccd3 100%);
   z-index: 0;
   border-bottom-left-radius: 50% 10%;
@@ -32,17 +32,21 @@
 }
 
 .hero-subtitle {
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: 0.1em;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-bottom: 0.5rem;
+  color: var(--clr-bg-deep);
+  opacity: 0.7;
 }
 
 .hero-title {
-  font-size: 3.5rem;
-  line-height: 1;
-  color: var(--clr-bg-deep);
+  font-size: 3.8rem;
+  line-height: 0.95;
+  font-weight: 800;
+  color: #017d84; /* Cyan color matching reference */
   margin-bottom: 2rem;
+  letter-spacing: -0.05em;
 }
 
 .hero-buttons {
@@ -64,10 +68,22 @@
   max-width: 700px;
   object-fit: contain;
   filter: drop-shadow(0 20px 30px rgba(0,0,0,0.3));
-  border-radius: 20px;
-  /* Add mask or blend to make it look extracted if it's a solid bg */
-  /* If DALL-E generated a solid background, a clip-path or basic rounded borders help */
-  clip-path: polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%);
+}
+
+/* White seafoam wave splash in background */
+.hero-images::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  background: white;
+  opacity: 0.6;
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  filter: blur(20px);
+  z-index: -1;
+  transform: rotate(20deg);
 }
 
 .hero-bottom {
@@ -87,13 +103,10 @@
 .plate-img {
   width: 100%;
   max-width: 450px;
-  border-radius: 40px;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-  border: 10px solid var(--clr-bg-deep); /* dark frame to blend */
-  box-shadow: 0 30px 40px rgba(0,0,0,0.5);
   display: block;
   margin: 0 auto;
+  clip-path: polygon(50% 0%, 65% 10%, 80% 5%, 85% 20%, 100% 25%, 95% 40%, 100% 55%, 85% 65%, 90% 80%, 75% 85%, 65% 100%, 50% 90%, 35% 100%, 25% 85%, 10% 80%, 15% 65%, 0% 55%, 5% 40%, 0% 25%, 15% 20%, 20% 5%, 35% 10%);
+  filter: drop-shadow(0 15px 30px rgba(0,0,0,0.6));
 }
 
 .hero-description {
@@ -104,22 +117,26 @@
   font-size: 0.8rem;
   color: var(--clr-accent-sand);
   margin-bottom: 0.5rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
 }
 
 .hero-description h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: var(--clr-text-white);
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .hero-description p {
   color: var(--clr-text-light);
   margin-bottom: 1.5rem;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   opacity: 0.8;
+  line-height: 1.8;
 }
 
-/* Pseudo waves */
 .hero-section::after {
   content: '';
   position: absolute;

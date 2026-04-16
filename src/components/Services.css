@@ -3,8 +3,43 @@
   border-top-left-radius: 50% 100px;
   position: relative;
   z-index: 2;
-  margin-top: -100px; /* Overlap the wave */
+  margin-top: -100px;
   padding-top: 8rem;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+  width: 100%;
+}
+
+.carousel-btn {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+  flex: 0 0 auto;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-btn.prev {
+  margin-right: -20px;
+}
+
+.carousel-btn.next {
+  margin-left: -20px;
 }
 
 .services-grid {
@@ -12,8 +47,8 @@
   gap: 2rem;
   justify-content: center;
   align-items: stretch;
-  position: relative;
-  z-index: 5;
+  flex: 1;
+  padding: 0 1rem;
 }
 
 .service-card {
@@ -38,7 +73,6 @@
   color: var(--clr-text-white);
 }
 
-/* Gradient overlay for image cards */
 .image-card::before {
   content: '';
   position: absolute;
