@@ -8,40 +8,40 @@ const Contact = () => {
         <div className="contact-form-side">
           <form className="contact-form">
             <div className="form-row">
-              <input type="text" placeholder="Nom" />
-              <input type="text" placeholder="Prénom" />
+              <input type="text" placeholder="Company Name" />
+              <input type="text" placeholder="Contact Person" />
             </div>
             <div className="form-row">
-              <input type="email" placeholder="E-mail" />
-              <input type="tel" placeholder="Téléphone" />
+              <input type="email" placeholder="Business E-mail" />
+              <input type="tel" placeholder="Phone Number" />
             </div>
             <div className="form-row form-full-row">
-              <input type="text" placeholder="Sujet" />
+              <input type="text" placeholder="Order Inquiry (e.g. 5 Tonnes Red Snapper)" />
             </div>
             <div className="form-row form-full-row">
-              <textarea placeholder="Message" rows="5"></textarea>
+              <textarea placeholder="Message / Specifications" rows="5"></textarea>
             </div>
             <div className="form-checkbox">
               <input type="checkbox" id="policy" />
-              <label htmlFor="policy">En soumettant ce formulaire, j'accepte la politique de confidentialité.</label>
+              <label htmlFor="policy">I agree to the B2B terms and privacy policy.</label>
             </div>
-            <button type="submit" className="btn btn-secondary">Envoyer</button>
+            <button type="submit" className="btn btn-secondary">Request Quote</button>
           </form>
         </div>
         
         <div className="contact-info-side">
-          <h3>CONTACTEZ-NOUS</h3>
+          <h3>BECOME A PARTNER</h3>
           <div className="info-item">
             <span className="icon">📞</span>
-            <p><strong>Téléphone</strong><br/>+1 (234) 567 89 00</p>
+            <p><strong>Export Operations</strong><br/>+597 123 4567</p>
           </div>
           <div className="info-item">
             <span className="icon">✉️</span>
-            <p><strong>E-mail</strong><br/>contact@fishrestaurant.com</p>
+            <p><strong>Global Sales</strong><br/>export@suricatch.sr</p>
           </div>
           <div className="info-item">
             <span className="icon">📍</span>
-            <p><strong>Adresse</strong><br/>123 Rue de la Mer, Oceanville</p>
+            <p><strong>Headquarters</strong><br/>123 Port Harbor, Paramaribo, Suriname</p>
           </div>
           
           <div className="contact-image-wrap">

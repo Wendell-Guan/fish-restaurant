@@ -5,9 +5,9 @@ const Services = () => {
   return (
     <section className="section" id="prestations">
       <div className="container">
-        <h2 className="section-title">NOS PRESTATIONS</h2>
+        <h2 className="section-title">OUR PRODUCTS & DISTRIBUTION</h2>
         <p className="section-subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+          We source, process, and distribute high-grade Suriname seafood worldwide.
         </p>
 
         <div className="carousel-container">
@@ -17,19 +17,19 @@ const Services = () => {
             <div className="service-card image-card" style={{ backgroundImage: 'url(/assets/images/suriname_red_snapper.png)' }}>
               <div className="card-content">
                 <div className="icon-wrapper">🎣</div>
-                <h3>Red Snapper</h3>
-                <p>Premium Suriname Lutjanus purpureus.</p>
+                <h3>Wild Red Snapper</h3>
+                <p>Premium Suriname Lutjanus purpureus, caught daily.</p>
               </div>
             </div>
 
             <div className="service-card dark-card">
               <div className="card-content top-content">
-                <div className="icon-wrapper-large">🦑</div>
-                <h3>Prestation 02</h3>
+                <div className="icon-wrapper-large">🚢</div>
+                <h3>Global Cold-Chain</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  State-of-the-art cold logistics guarantee ocean-to-market freshness anywhere in the world.
                 </p>
-                <button className="btn btn-secondary">Lorem ipsum</button>
+                <button className="btn btn-secondary">Learn More</button>
               </div>
             </div>
 
@@ -37,7 +37,7 @@ const Services = () => {
               <div className="card-content">
                 <div className="icon-wrapper">🐟</div>
                 <h3>Koepila Catfish</h3>
-                <p>Traditional smoked sea catfish specialties.</p>
+                <p>Top grade sea catfish processed to international standards.</p>
               </div>
             </div>
           </div>

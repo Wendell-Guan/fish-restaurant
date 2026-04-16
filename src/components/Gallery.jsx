@@ -5,9 +5,9 @@ const Gallery = () => {
   return (
     <section className="section" id="galerie">
       <div className="container">
-        <h2 className="section-title">NOS GALERIES</h2>
+        <h2 className="section-title">FRESH CATCH SHOWCASE</h2>
         <p className="section-subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.
+          A glimpse into our pristine daily harvest, ready for export.
         </p>
 
         <div className="gallery-grid">
@@ -35,7 +35,7 @@ const Gallery = () => {
         </div>
         
         <div className="gallery-action">
-          <button className="btn btn-secondary">Voir plus</button>
+          <button className="btn btn-secondary">View Full Catalog</button>
         </div>
       </div>
     </section>

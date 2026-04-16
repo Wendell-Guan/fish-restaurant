@@ -10,11 +10,11 @@ const Hero = () => {
       
       <div className="hero-content container">
         <div className="hero-text">
-          <p className="hero-subtitle">LOREM IPSUM DOLOR SIT</p>
-          <h1 className="hero-title">LOREM IPSUM<br/>DOLOR SIT AMET<br/>ACCUMSAN</h1>
+          <p className="hero-subtitle">PREMIUM SEAFOOD DISTRIBUTOR</p>
+          <h1 className="hero-title">FRESH CATCH<br/>FROM SOUTH AMERICA<br/>TO THE WORLD</h1>
           <div className="hero-buttons">
-            <button className="btn btn-primary">Lorem ipsum</button>
-            <button className="btn btn-secondary">Lorem ipsum</button>
+            <button className="btn btn-primary">Our Products</button>
+            <button className="btn btn-secondary">Contact Sales</button>
           </div>
         </div>
         
@@ -28,15 +28,15 @@ const Hero = () => {
           <img src="/assets/images/hero_fish_plate.png" alt="Raw fish on ice" className="plate-img" />
         </div>
         <div className="hero-description">
-          <h3>Fish restaurant</h3>
-          <h2>LOREM IPSUM DOLOR SIT AMET,<br/>MITIUS NEC FRINGILLA<br/>ACCUMSAN.</h2>
+          <h3>South American Export</h3>
+          <h2>WILD-CAUGHT FISH,<br/>GUARANTEED FRESHNESS<br/>& COLD CHAIN.</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            SuriCatch is a leading fish distributor based in Suriname, specializing in exporting the finest wild-caught marine species. From the pristine waters of the Atlantic, right to your commercial market.
           </p>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Our dedicated fleet and strict cold-chain logistics ensure that high-demand varieties like Red Snapper, Grouper, and Whitemouth Croaker retain their absolute oceanic freshness upon global delivery.
           </p>
-          <button className="btn btn-secondary">Prestations</button>
+          <button className="btn btn-secondary">View Catalog</button>
         </div>
       </div>
     </div>
