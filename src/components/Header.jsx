@@ -19,26 +19,52 @@ const Header = () => {
         </ul>
       </nav>
       
-      <div className="header-logo">
-        <span className="logo-icon" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1.2rem', color: 'var(--clr-bg-deep)' }}>
-          <svg viewBox="0 0 100 100" width="40" height="40" style={{fill:"var(--clr-bg-deep)"}}>
-            <circle cx="50" cy="50" r="45" fill="none" strokeWidth="2" stroke="currentColor"/>
-            <text x="35" y="60" fontSize="30" >🐟</text>
+      <div className="header-logo" style={{ userSelect: 'none', margin: '0 3rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1.8rem', color: 'var(--clr-bg-deep)', letterSpacing: '-0.02em' }}>
+          <svg viewBox="0 0 100 100" width="36" height="36" style={{ fill: 'none', stroke: 'var(--clr-accent)', strokeWidth: 8, strokeLinecap: 'round', strokeLinejoin: 'round' }}>
+            <path d="M15,50 Q45,20 80,50 Q45,80 15,50 Z" />
+            <path d="M80,50 L95,35 L95,65 Z" />
+            <circle cx="35" cy="45" r="4" fill="currentColor" stroke="none" />
           </svg>
-          SuriCatch
-        </span>
+          Suri<span style={{ color: 'var(--clr-accent)', fontWeight: 400 }}>Catch</span>
+        </div>
       </div>
 
-      <nav className="header-nav right-nav">
-        <ul>
+      <nav className="header-nav right-nav" style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '2rem' }}>
+        <ul style={{ margin: 0, padding: 0 }}>
           <li><a href="#avis">{t('nav.partners')}</a></li>
           <li><a href="#contact">{t('nav.contact')}</a></li>
-          <li>
-            <button onClick={toggleLanguage} style={{ background: 'transparent', border: '1px solid currentColor', borderRadius: '4px', color: 'inherit', padding: '0.2rem 0.5rem', cursor: 'pointer', marginLeft: '1rem', fontSize: '0.9em', fontWeight: 'bold' }}>
-              {i18n.language && i18n.language.startsWith('zh') ? 'EN' : '中文'}
-            </button>
-          </li>
         </ul>
+        
+        {/* Highly Visible Language Switcher Pill */}
+        <button 
+          onClick={toggleLanguage} 
+          style={{ 
+            background: 'var(--clr-accent)', 
+            border: 'none', 
+            borderRadius: '20px', 
+            color: 'var(--clr-bg-deep)', 
+            padding: '0.4rem 0.8rem', 
+            cursor: 'pointer', 
+            fontSize: '0.85rem', 
+            fontWeight: 'bold',
+            boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '5px',
+            whiteSpace: 'nowrap'
+          }}
+        >
+          {i18n.language && i18n.language.startsWith('zh') ? (
+            <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg> EN
+            </span>
+          ) : (
+            <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg> 中文
+            </span>
+          )}
+        </button>
       </nav>
     </header>
   );
