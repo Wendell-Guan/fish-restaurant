@@ -149,3 +149,65 @@
   border-top-right-radius: 50% 150px;
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: auto;
+    padding-bottom: 3rem;
+  }
+  .hero-bg-top {
+    height: auto;
+    min-height: 70vh;
+    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 50% 8%;
+  }
+  .hero-content {
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+  .hero-title {
+    font-size: clamp(2.2rem, 9vw, 3.2rem);
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+  .hero-subtitle { text-align: center; }
+  .hero-buttons { justify-content: center; flex-wrap: wrap; }
+  .hero-images {
+    width: 100%;
+    height: auto;
+    min-height: 280px;
+  }
+  .hero-fish-img {
+    position: static;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    display: block;
+  }
+  .hero-images::before {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    right: 10%;
+  }
+  .hero-bottom {
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+  .hero-description { text-align: center; }
+  .hero-description h2 { font-size: 1.5rem; }
+  .plate-img { max-width: 320px; }
+  .hero-section::after {
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content { margin-top: 1rem; }
+  .hero-title { font-size: clamp(1.8rem, 10vw, 2.6rem); }
+  .hero-bottom { margin-top: 2.5rem; }
+  .hero-description h2 { font-size: 1.3rem; }
+  .hero-description p { font-size: 0.9rem; }
+}

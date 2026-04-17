@@ -146,3 +146,39 @@
   z-index: 0;
   pointer-events: none;
 }
+
+@media (max-width: 768px) {
+  #prestations {
+    margin-top: -60px;
+    padding-top: 5rem;
+    border-top-left-radius: 30% 60px;
+  }
+  .carousel-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .services-grid {
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 0;
+    width: 100%;
+  }
+  .service-card {
+    min-height: 320px;
+    width: 100%;
+  }
+  .carousel-btn {
+    width: 44px;
+    height: 44px;
+  }
+  .carousel-btn.prev,
+  .carousel-btn.next {
+    margin: 0;
+  }
+  .card-content { padding: 1.5rem; }
+}
+
+@media (max-width: 480px) {
+  .service-card { min-height: 280px; }
+  .card-content h3 { font-size: 1.1rem; }
+}
