@@ -29,7 +29,7 @@ const Gallery = () => {
             <img src="/assets/images/hero_fish_plate.png" alt="Assorted Raw Fish Selection" />
           </div>
           <div className="gallery-item item-clams">
-            <img src="https://images.unsplash.com/photo-1521566652839-697aa473761a?q=80&w=800" alt="Pristine market catch" />
+            <img src="/assets/images/suriname_catfish.png" alt="Fresh Suriname Catfish" />
           </div>
         </div>
         
