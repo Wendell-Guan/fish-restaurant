@@ -23,7 +23,7 @@ const Gallery = () => {
             <img src="/assets/images/gallery_fresh_croaker_alt.png" alt="Whitemouth Croaker Select" />
           </div>
           <div className="gallery-item item-shrimp">
-            <img src="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?q=80&w=800" alt="Fresh market fish display" />
+            <img src="/assets/images/suriname_croaker.png" alt="Fresh Suriname Croaker" />
           </div>
           <div className="gallery-item item-school">
             <img src="/assets/images/hero_fish_plate.png" alt="Assorted Raw Fish Selection" />
