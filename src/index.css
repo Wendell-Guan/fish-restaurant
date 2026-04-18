@@ -19,11 +19,15 @@
   padding: 0;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--font-main);
   background-color: var(--clr-bg-deep);
   color: var(--clr-text-light);
-  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -123,7 +127,7 @@ a:hover {
 /* Wave Shapes */
 .wave-divider {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: auto;
   z-index: 0;
   left: 0;
