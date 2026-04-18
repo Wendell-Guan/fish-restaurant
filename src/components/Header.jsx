@@ -20,7 +20,7 @@ const Header = () => {
       </nav>
       
       <div className="header-logo" style={{ userSelect: 'none', margin: '0 3rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1.8rem', color: 'var(--clr-bg-deep)', letterSpacing: '-0.02em' }}>
+        <div style={{ display: 'flex', alignItems: 'center', fontWeight: '900', fontSize: '1.8rem', color: 'var(--clr-bg-deep)', letterSpacing: '-0.02em' }}>
           Suri<span style={{ color: 'var(--clr-accent)', fontWeight: 400 }}>Catch</span>
         </div>
       </div>
