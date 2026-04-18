@@ -21,11 +21,6 @@ const Header = () => {
       
       <div className="header-logo" style={{ userSelect: 'none', margin: '0 3rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '900', fontSize: '1.8rem', color: 'var(--clr-bg-deep)', letterSpacing: '-0.02em' }}>
-          <svg viewBox="0 0 100 100" width="36" height="36" style={{ fill: 'none', stroke: 'var(--clr-accent)', strokeWidth: 8, strokeLinecap: 'round', strokeLinejoin: 'round' }}>
-            <path d="M15,50 Q45,20 80,50 Q45,80 15,50 Z" />
-            <path d="M80,50 L95,35 L95,65 Z" />
-            <circle cx="35" cy="45" r="4" fill="currentColor" stroke="none" />
-          </svg>
           Suri<span style={{ color: 'var(--clr-accent)', fontWeight: 400 }}>Catch</span>
         </div>
       </div>
