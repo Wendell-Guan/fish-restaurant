@@ -14,7 +14,7 @@ const Gallery = () => {
 
         <div className="gallery-grid">
           <div className="gallery-item item-chef">
-            <img src="/assets/images/gallery_raw_grouper.png" alt="Raw Grouper on ice" />
+            <img src="/assets/images/gallery_gregor_fish.jpg" alt="Fresh whole fish on ceramic plate" />
           </div>
           <div className="gallery-item item-crab">
             <img src="/assets/images/suriname_red_snapper.png" alt="Fresh Suriname Red Snapper" />
@@ -23,10 +23,10 @@ const Gallery = () => {
             <img src="/assets/images/gallery_fresh_croaker_alt.png" alt="Whitemouth Croaker Select" />
           </div>
           <div className="gallery-item item-shrimp">
-            <img src="/assets/images/suriname_croaker.png" alt="Fresh Suriname Croaker" />
+            <img src="/assets/images/gallery_sebastian_fish.jpg" alt="Fresh fish display" />
           </div>
           <div className="gallery-item item-school">
-            <img src="/assets/images/hero_fish_plate.png" alt="Assorted Raw Fish Selection" />
+            <img src="/assets/images/gallery_jakub_fish.jpg" alt="Assorted raw fish selection" />
           </div>
           <div className="gallery-item item-clams">
             <img src="/assets/images/suriname_catfish.png" alt="Fresh Suriname Catfish" />
