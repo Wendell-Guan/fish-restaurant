@@ -20,11 +20,11 @@
 }
 
 .footer-legal-name {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.05em;
-  opacity: 0.65;
-  max-width: 220px;
+  opacity: 0.75;
+  max-width: 260px;
   line-height: 1.4;
 }
 

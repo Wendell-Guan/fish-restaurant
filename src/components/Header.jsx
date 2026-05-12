@@ -24,7 +24,7 @@ const Header = () => {
           Suri<span style={{ color: 'var(--clr-accent)', fontWeight: 400 }}>Catch</span>
         </div>
         {i18n.language && i18n.language.startsWith('zh') && (
-          <div style={{ fontSize: '0.62rem', letterSpacing: '0.08em', color: 'var(--clr-bg-deep)', opacity: 0.72, marginTop: '5px', fontWeight: 600, whiteSpace: 'nowrap' }}>
+          <div style={{ fontSize: '0.82rem', letterSpacing: '0.08em', color: 'var(--clr-bg-deep)', opacity: 0.78, marginTop: '6px', fontWeight: 600, whiteSpace: 'nowrap' }}>
             {t('footer.legalName')}
           </div>
         )}
