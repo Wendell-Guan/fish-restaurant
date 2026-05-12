@@ -147,8 +147,11 @@ const resources = {
         hkAddress: "2401 Citicorp Centre, 18 Whitfield Road, Causeway Bay, Hong Kong",
         srTitle: "Suriname Office",
         srAddress: "J.D. Gompertstraat no. 88, Paramaribo, Suriname (South America)",
+        chatTitle: "Message Us",
+        chatHint: "Scan to chat on your preferred app",
         wechatTitle: "WeChat",
-        wechatHint: "Scan to chat on WeChat"
+        whatsappTitle: "WhatsApp",
+        lineTitle: "LINE"
       },
       footer: {
         logo: "SuriCatch"
@@ -299,8 +302,11 @@ const resources = {
         hkAddress: "香港 銅鑼灣 威非路道18號 萬國寶通中心2401室",
         srTitle: "苏里南办公室",
         srAddress: "J.D. Gompertstraat no. 88, Paramaribo, Suriname（南美洲）",
+        chatTitle: "扫码联系我们",
+        chatHint: "扫描下方任一二维码与我们沟通",
         wechatTitle: "微信",
-        wechatHint: "扫码添加微信"
+        whatsappTitle: "WhatsApp",
+        lineTitle: "LINE"
       },
       footer: {
         logo: "SuriCatch"

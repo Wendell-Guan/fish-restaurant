@@ -123,18 +123,40 @@ input:focus, textarea:focus {
   font-size: 0.9rem;
 }
 
-.wechat-qr {
-  width: 130px;
-  height: 130px;
-  border-radius: 10px;
-  background: #fff;
-  padding: 6px;
-  display: block;
-}
-
 .qr-hint {
   font-size: 0.75rem;
   opacity: 0.65;
+}
+
+.qr-grid {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.4rem;
+}
+
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.qr-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 5px;
+  display: block;
+  object-fit: contain;
+}
+
+.qr-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
 }
 
 .contact-image-wrap {

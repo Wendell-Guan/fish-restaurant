@@ -98,9 +98,22 @@ const Contact = () => {
           <div className="info-item info-item-qr">
             <span className="icon">💬</span>
             <div className="qr-block">
-              <strong>{t('contact.wechatTitle')}</strong>
-              <img src="/assets/images/wechat-qr.jpg" alt="WeChat QR code" className="wechat-qr" />
-              <span className="qr-hint">{t('contact.wechatHint')}</span>
+              <strong>{t('contact.chatTitle')}</strong>
+              <span className="qr-hint">{t('contact.chatHint')}</span>
+              <div className="qr-grid">
+                <div className="qr-card">
+                  <img src="/assets/images/wechat-qr.jpg" alt="WeChat QR code" className="qr-img" />
+                  <span className="qr-label">{t('contact.wechatTitle')}</span>
+                </div>
+                <div className="qr-card">
+                  <img src="/assets/images/whatsapp-qr.jpg" alt="WhatsApp QR code" className="qr-img" />
+                  <span className="qr-label">{t('contact.whatsappTitle')}</span>
+                </div>
+                <div className="qr-card">
+                  <img src="/assets/images/line-qr.jpg" alt="LINE QR code" className="qr-img" />
+                  <span className="qr-label">{t('contact.lineTitle')}</span>
+                </div>
+              </div>
             </div>
           </div>
 
