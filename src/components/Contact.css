@@ -113,6 +113,30 @@ input:focus, textarea:focus {
   line-height: 1.4;
 }
 
+.qr-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.qr-block strong {
+  font-size: 0.9rem;
+}
+
+.wechat-qr {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 6px;
+  display: block;
+}
+
+.qr-hint {
+  font-size: 0.75rem;
+  opacity: 0.65;
+}
+
 .contact-image-wrap {
   margin-top: 2rem;
   border-radius: 20px;

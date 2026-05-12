@@ -95,6 +95,14 @@ const Contact = () => {
             <span className="icon">📍</span>
             <p><strong>{t('contact.srTitle')}</strong><br/>{t('contact.srAddress')}</p>
           </div>
+          <div className="info-item info-item-qr">
+            <span className="icon">💬</span>
+            <div className="qr-block">
+              <strong>{t('contact.wechatTitle')}</strong>
+              <img src="/assets/images/wechat-qr.jpg" alt="WeChat QR code" className="wechat-qr" />
+              <span className="qr-hint">{t('contact.wechatHint')}</span>
+            </div>
+          </div>
 
           <div className="contact-image-wrap">
             <img src="/assets/images/footer_school.png" alt="Map/Texture" className="contact-texture" />
