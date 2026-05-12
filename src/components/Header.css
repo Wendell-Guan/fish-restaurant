@@ -61,7 +61,7 @@
     display: flex;
     justify-content: center;
   }
-  .header-logo > div {
+  .header-logo > div:first-child {
     font-size: 1.5rem !important;
   }
   .header-nav { flex: 1 1 auto; }
@@ -88,7 +88,7 @@
 }
 
 @media (max-width: 480px) {
-  .header-logo > div {
+  .header-logo > div:first-child {
     font-size: 1.3rem !important;
   }
   .left-nav ul,

@@ -19,10 +19,15 @@ const Header = () => {
         </ul>
       </nav>
       
-      <div className="header-logo" style={{ userSelect: 'none', margin: '0 3rem' }}>
+      <div className="header-logo" style={{ userSelect: 'none', margin: '0 3rem', display: 'flex', flexDirection: 'column', alignItems: 'center', lineHeight: 1.1 }}>
         <div style={{ display: 'flex', alignItems: 'center', fontWeight: '900', fontSize: '1.8rem', color: 'var(--clr-bg-deep)', letterSpacing: '-0.02em' }}>
           Suri<span style={{ color: 'var(--clr-accent)', fontWeight: 400 }}>Catch</span>
         </div>
+        {i18n.language && i18n.language.startsWith('zh') && (
+          <div style={{ fontSize: '0.62rem', letterSpacing: '0.08em', color: 'var(--clr-bg-deep)', opacity: 0.72, marginTop: '5px', fontWeight: 600, whiteSpace: 'nowrap' }}>
+            {t('footer.legalName')}
+          </div>
+        )}
       </div>
 
       <nav className="header-nav right-nav" style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '2rem' }}>
