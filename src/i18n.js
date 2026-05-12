@@ -39,6 +39,10 @@ const resources = {
         subtitle: "A glimpse into our pristine daily harvest, ready for export.",
         btnFull: "View Full Catalog"
       },
+      homeVideo: {
+        title: "SEE SURICATCH IN MOTION",
+        subtitle: "From the Atlantic deck to the global cold chain — watch how a SuriCatch shipment really moves."
+      },
       about: {
         eyebrow: "About SuriCatch",
         title: "ROOTED IN SURINAME,\nSINCE 1995",
@@ -194,6 +198,10 @@ const resources = {
         title: "生鲜产品图库",
         subtitle: "一览我们每日准备出口的纯净鲜获。",
         btnFull: "查看完整目录"
+      },
+      homeVideo: {
+        title: "走进我们的远洋鲜捕",
+        subtitle: "从大西洋甲板到全球冷链——看一批 SuriCatch 货物是如何流转的。"
       },
       about: {
         eyebrow: "关于 SuriCatch",

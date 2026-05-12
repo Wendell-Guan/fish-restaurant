@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import HomeVideo from './components/HomeVideo';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
@@ -42,6 +43,7 @@ function App() {
     <div className="App">
       <Hero />
       <Services />
+      <HomeVideo />
       <Gallery />
       <Testimonials />
       <Contact />

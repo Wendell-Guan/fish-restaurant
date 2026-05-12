@@ -1,0 +1,29 @@
+.home-video-section {
+  background-color: var(--clr-bg-deep);
+}
+
+.home-video-frame {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
+}
+
+.home-video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .home-video-frame {
+    border-radius: 14px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+  }
+}
