@@ -9,8 +9,9 @@ const Footer = () => {
       <div className="container footer-content">
         <div className="footer-logo">
           <span className="logo-text">{t('footer.logo')}</span>
+          <span className="footer-legal-name">{t('footer.legalName')}</span>
         </div>
-        
+
         <div className="footer-links">
           <ul>
             <li><a href="#home">{t('nav.home')}</a></li>
@@ -21,10 +22,13 @@ const Footer = () => {
             <li><a href="#contact">{t('nav.contact')}</a></li>
           </ul>
         </div>
-        
+
         <div className="footer-bottom-logo">
           <span className="logo-icon-large">🦈</span>
         </div>
+      </div>
+      <div className="container footer-copyright">
+        {t('footer.copyright')}
       </div>
     </footer>
   );
