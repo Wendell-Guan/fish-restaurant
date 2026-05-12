@@ -15,7 +15,7 @@ const Header = () => {
         <ul>
           <li><a href="#home">{t('nav.home')}</a></li>
           <li><a href="#prestations">{t('nav.services')}</a></li>
-          <li><a href="#galerie">{t('nav.products')}</a></li>
+          <li><a href="#products">{t('nav.products')}</a></li>
         </ul>
       </nav>
       

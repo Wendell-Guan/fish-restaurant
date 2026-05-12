@@ -34,7 +34,7 @@ const Gallery = () => {
         </div>
         
         <div className="gallery-action">
-          <button className="btn btn-secondary">{t('gallery.btnFull')}</button>
+          <a href="#products" className="btn btn-secondary">{t('gallery.btnFull')}</a>
         </div>
       </div>
     </section>

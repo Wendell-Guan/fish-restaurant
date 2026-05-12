@@ -79,11 +79,6 @@
   opacity: 0.9;
 }
 
-.testimonials-action {
-  text-align: center;
-  margin-top: 3rem;
-}
-
 #avis::after {
   content: '';
   position: absolute;

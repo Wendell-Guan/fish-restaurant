@@ -22,14 +22,6 @@ const Footer = () => {
           </ul>
         </div>
         
-        <div className="footer-social">
-          <p>{t('footer.follow')}</p>
-          <div className="social-icons">
-            <a href="#">📱</a>
-            <a href="#">📸</a>
-          </div>
-        </div>
-        
         <div className="footer-bottom-logo">
           <span className="logo-icon-large">🦈</span>
         </div>

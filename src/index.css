@@ -92,7 +92,8 @@ a:hover {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .section {
@@ -137,7 +138,7 @@ a:hover {
 img, svg { max-width: 100%; height: auto; }
 
 @media (max-width: 768px) {
-  .container { padding: 0 1.25rem; }
+  .container { padding-left: 1.25rem; padding-right: 1.25rem; }
   .section { padding: 3rem 0; }
   .section-title { font-size: 1.3rem; margin-bottom: 2rem; }
   .section-subtitle { margin: -1.5rem auto 2rem auto; padding: 0 1rem; }
@@ -145,6 +146,6 @@ img, svg { max-width: 100%; height: auto; }
 }
 
 @media (max-width: 480px) {
-  .container { padding: 0 1rem; }
+  .container { padding-left: 1rem; padding-right: 1rem; }
   .section { padding: 2.5rem 0; }
 }

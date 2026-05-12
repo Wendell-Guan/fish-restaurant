@@ -68,6 +68,25 @@ input:focus, textarea:focus {
   align-self: flex-start;
 }
 
+.contact-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-msg {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.form-msg-success {
+  color: var(--clr-accent-sand);
+}
+
+.form-msg-error {
+  color: #ff8a8a;
+}
+
 .contact-info-side {
   flex: 1;
 }

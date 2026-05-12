@@ -32,22 +32,6 @@
   opacity: 0.8;
 }
 
-.footer-social p {
-  font-size: 0.8rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.social-icons {
-  display: flex;
-  gap: 1rem;
-}
-
-.social-icons a {
-  font-size: 1.2rem;
-  opacity: 0.8;
-}
-
 .footer-bottom-logo {
   font-size: 2.5rem;
   opacity: 0.8;

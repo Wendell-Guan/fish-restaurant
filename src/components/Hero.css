@@ -62,7 +62,7 @@
 
 .hero-fish-img {
   position: absolute;
-  top: -100px;
+  top: 20px;
   right: -50px;
   width: 140%;
   max-width: 700px;
@@ -130,11 +130,10 @@
 }
 
 .hero-description p {
-  color: var(--clr-text-light);
+  color: var(--clr-text-white);
   margin-bottom: 1.5rem;
-  font-size: 0.85rem;
-  opacity: 0.8;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.85;
 }
 
 .hero-section::after {

@@ -15,8 +15,8 @@ const Hero = () => {
           <p className="hero-subtitle">{t('hero.subtitle')}</p>
           <h1 className="hero-title" style={{ whiteSpace: 'pre-line' }}>{t('hero.title')}</h1>
           <div className="hero-buttons">
-            <button className="btn btn-primary">{t('hero.btnProducts')}</button>
-            <button className="btn btn-secondary">{t('hero.btnContact')}</button>
+            <a href="#products" className="btn btn-primary">{t('hero.btnProducts')}</a>
+            <a href="#contact" className="btn btn-secondary">{t('hero.btnContact')}</a>
           </div>
         </div>
         
@@ -34,7 +34,7 @@ const Hero = () => {
           <h2 style={{ whiteSpace: 'pre-line' }}>{t('hero.descSubtitle')}</h2>
           <p>{t('hero.descP1')}</p>
           <p>{t('hero.descP2')}</p>
-          <button className="btn btn-secondary">{t('hero.btnCatalog')}</button>
+          <a href="#products" className="btn btn-secondary">{t('hero.btnCatalog')}</a>
         </div>
       </div>
     </div>

@@ -31,7 +31,7 @@ const Services = () => {
                 <p>
                   {t('services.coldchainDesc')}
                 </p>
-                <button className="btn btn-secondary">{t('services.btnLearn')}</button>
+                <a href="#about" className="btn btn-secondary">{t('services.btnLearn')}</a>
               </div>
             </div>
 

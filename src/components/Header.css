@@ -51,7 +51,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.75rem;
-    padding-top: 10rem;
+    padding-top: calc(env(safe-area-inset-top, 0px) + 4rem);
     padding-bottom: 1.25rem;
   }
   .header-logo {
