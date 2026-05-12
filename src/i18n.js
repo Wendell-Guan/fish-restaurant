@@ -46,6 +46,7 @@ const resources = {
         backToHome: "Back to Home",
         storyTitle: "OUR STORY",
         storyBody: "SuriCatch is a Surinamese corporation established in 1995. We started out as a small company and are now one of the largest processors and exporters of frozen and fresh fish in Suriname. Our commitment to Food Safety, Food Quality and Continuity has made us a successful and fast growing company with a number of satisfied customers in different parts of the world.",
+        videoTitle: "INSIDE OUR OPERATIONS",
         pillarsTitle: "WHAT WE STAND FOR",
         pillars: [
           { title: "Food Safety", desc: "Strict cold-chain discipline and full traceability — from the catch to your facility." },
@@ -201,6 +202,7 @@ const resources = {
         backToHome: "返回首页",
         storyTitle: "我们的故事",
         storyBody: "SuriCatch 是一家成立于 1995 年的苏里南企业。我们最初只是一家小公司，如今已成为苏里南最大的冷冻与鲜捕鱼类加工出口商之一。我们对食品安全、食品质量与稳定供应的坚持，让我们成为一家持续高速成长的企业，在全球多个地区赢得了众多满意客户。",
+        videoTitle: "走进 SuriCatch",
         pillarsTitle: "我们的坚持",
         pillars: [
           { title: "食品安全", desc: "严格的冷链管控与全程可追溯——从远洋鲜捕到客户工厂，环环可查。" },

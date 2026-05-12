@@ -29,6 +29,21 @@ const About = () => {
 
         <section className="about-section container">
           <header className="about-section-header">
+            <h2 className="about-section-title">{t('about.videoTitle')}</h2>
+          </header>
+          <div className="about-video">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/SjQW02hrQZo"
+              title="SuriCatch — Inside Our Operations"
+              loading="lazy"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+
+        <section className="about-section container">
+          <header className="about-section-header">
             <h2 className="about-section-title">{t('about.pillarsTitle')}</h2>
           </header>
           <div className="pillars-grid">
